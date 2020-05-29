@@ -1,7 +1,7 @@
 BE-CHTI       OBJECTIF-2        SMANIOTTO-FAURE      2019-2020
 
 
-NB : Ce document ne présente pas le contenu du code relatif à cet OBJECTIF, celui ci est suffisament commenté
+NB : Ce document ne présente pas le contenu du code relatif à cet OBJECTIF, celui-ci est suffisament commenté
 
 
 
