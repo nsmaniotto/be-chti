@@ -395,12 +395,32 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>System</GroupName>
+          <GroupName>Sys</GroupName>
           <Files>
             <File>
               <FileName>startup-rvds.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\startup-rvds.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Driver</GroupName>
+          <Files>
+            <File>
+              <FileName>gfssp72.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>.\Src\gfssp72.lib</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Tables </GroupName>
+          <Files>
+            <File>
+              <FileName>trigo.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\trigo.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -798,12 +818,32 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>System</GroupName>
+          <GroupName>Sys</GroupName>
           <Files>
             <File>
               <FileName>startup-rvds.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\startup-rvds.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Driver</GroupName>
+          <Files>
+            <File>
+              <FileName>gfssp72.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>.\Src\gfssp72.lib</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Tables </GroupName>
+          <Files>
+            <File>
+              <FileName>trigo.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\trigo.asm</FilePath>
             </File>
           </Files>
         </Group>
