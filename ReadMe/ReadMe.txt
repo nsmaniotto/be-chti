@@ -1,7 +1,7 @@
 BE-CHTI       OBJECTIF-1        SMANIOTTO-FAURE      2019-2020
 
 
-NB : Ce document ne présente pas le contenu du code relatif à cet OBJECTIF, celui ci est suffisament commenté
+NB : Ce document ne présente pas le contenu du code relatif à cet OBJECTIF, celui-ci est suffisament commenté
 
 
 
@@ -22,12 +22,12 @@ Comment tester cet objectif :
 (1)	- Cliquer sur Rebuild, deux warnings s'affichent, ignorez les
 	- Lancer une session de débug
 	- Cliquer sur Run (ou F5)
-	- Le fichier de configuration de la session de débug a été volontairement laissé, ainsi, tout les points d'arrets sont déjà présents
-	- Le programme s'est arreté sur l'instruction 26 du programme.c : "int point_arret = 0;"
+	- Le fichier de configuration de la session de débug a été volontairement laissé, ainsi, tous les points d'arrets sont déjà présents
+	- Le programme s'est arrêté sur l'instruction 26 du programme.c : "int point_arret = 0;"
 	- Il vient d'appeler calc_M2 pour toutes les valeurs de k dont le résultat est stocké dans le tableau M2
-	- Il ne reste plus qu'a regarder les valeurs dans M2 dans la fenêtre "Call Stack + Locals"
+	- Il ne reste plus qu'à regarder les valeurs dans M2 dans la fenêtre "Call Stack + Locals"
 	- Cliquer sur le + à gauche de M2
-	- Faire défiler les valeurs, elles doivent toutes être de presque nulles, sauf 17 et 18 (et 46 et 47 leur reflet)
+	- Faire défiler les valeurs, elles doivent toutes être presque nulles, sauf 17 et 18 (et 46 et 47 leur reflet)
 
 	- NB : De base, le test se fait sur le fichier signal "f17p30_f18p135.asm"
 	- Si vous souhaitez changer le fichier signal :
@@ -43,7 +43,7 @@ Comment tester cet objectif :
 		- Le fichier doit être apparu dans l'arbre
 		- Cliquer sur Close
 		- Vous avez changé le fichier
-		- Repartir à l'étape (1), ATTENTION : le fichier signal a changé les résultats attendus ont changé aussi (Cf section "Comment identifier les résultats attendus")
+		- Repartir à l'étape (1), ATTENTION : le fichier signal a changé donc les résultats attendus ont changé aussi (Cf section "Comment identifier les résultats attendus")
 
 
 Comment identifier les résultats attendus : 
