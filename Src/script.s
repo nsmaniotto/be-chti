@@ -50,8 +50,10 @@ timer_callback proc
 	str r0, [r1]
 	b fin_prog
 fin_morceau	
-	; Si morceau fini
-	mov r0, #0
+	; Si morceau fini, alors on lui affecte resolution/2
+	ldr r0, =etat
+	ldr r0, [r0, #E_RES]
+	lsr	r0, #1 ; on divise resolution (dans r0) par 2 en faisant un décallage de 1 bit à droite
 	ldr r1, =TIM3_CCR3
 	str r0, [r1]
 	
