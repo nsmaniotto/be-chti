@@ -1,7 +1,7 @@
 BE-CHTI       OBJECTIF-4        SMANIOTTO-FAURE      2019-2020
 
 
-NB : Ce document ne présente pas le contenu du code relatif à cet OBJECTIF, celui ci est suffisament commenté
+NB : Ce document ne présente pas le contenu du code relatif à cet OBJECTIF, celui-ci est suffisament commenté
 
 
 
@@ -9,7 +9,7 @@ Quel est l'objectif de ce projet :
 	- Utilisation de la fonction calc_M2 pour détecter un tir de pistolet	
 	- Lecture régulière dans le buffer et analyse avec calc_M2 grace à un timer et une fonction callback
 	- Gestion des scores dans la fonction main
-	- Un son est lancé des qu'un tir est détecté
+	- Un son est lancé dès qu'un tir est détecté
 
 
 Comment tester cet objectif : 
@@ -20,13 +20,13 @@ Comment tester cet objectif :
 	- Sélectionner l'onglet du Logic Analyzer
 	- Cliquer sur Run (ou F5)
 	- Jouer sur "Out" et "In" dans le menu Zoom du Logic Analyser pour voir de 0s à 1.2s
-	- 7 signaux sont visibles, le premier correspont au son, les 6 autres aux points des 6 pistolets
+	- 7 signaux sont visibles, le premier correspond au son, les 6 autres aux points des 6 pistolets
 	- Les points sont aussi visibles dans la Watch1 en bas au gauche
 	- Résultats attendus : 
-		- Seul le pistolet 6 marque, a chaque point, un son est emis
+		- Seul le pistolet 6 marque, à chaque point, un son est emis
 
 		- NB : Les résultats attendus sont aussi visibles dans la photo "LogicAnalyzer.png"
-		- NB : Le son est BruitDeVerre, mais il a été raccourcis pour éviter les chevauchements
+		- NB : Le son est BruitDeVerre, mais il a été raccourci pour éviter les chevauchements
 		- NB : Pour changer les résultats attendus Cf la section "Comment tester d'autres signaux"
 
 
@@ -52,7 +52,7 @@ Comment tester d'autres signaux :
 			- Personne ne marque
 
 	- ATTENTION : Si les pistolets (1, 2, 3, 4, 5) tirent en même temps que le 6 (0x52 par exemple)
-		      Il y aura un reouvrement, lorsque le pistolet 6 tirera le son reprendra du début, et il n'aura pas le temps de se terminer
+		      Il y aura un recouvrement, lorsque le pistolet 6 tirera le son reprendra du début, et il n'aura pas le temps de se terminer
 		      Cf "LogicAnalyzerRecouvrement.png"
 
 	- Cf le man de la Fake Lib de M.Noullet pour un choix plus fin
