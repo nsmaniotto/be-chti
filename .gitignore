@@ -1,0 +1,14 @@
+# Dossiers générés par Keil
+DebugConfig/
+Obj/
+RTE/
+
+# Profils et préférences Keil
+Project.uvguix.*
+
+# Le fichier 'Project.uvprojx' peut être renommé en .xml lors d'une compression et téléchargement via google drive 
+Project.uvprojx.xml
+
+# Fichiers générés par Keil
+*.lst
+*.scvd
