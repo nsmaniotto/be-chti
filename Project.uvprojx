@@ -395,12 +395,27 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>System</GroupName>
+          <GroupName>Sys</GroupName>
           <Files>
             <File>
               <FileName>startup-rvds.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\startup-rvds.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Tables </GroupName>
+          <Files>
+            <File>
+              <FileName>trigo.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\trigo.asm</FilePath>
+            </File>
+            <File>
+              <FileName>f17p30_f18p135.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\f17p30_f18p135.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -798,12 +813,27 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>System</GroupName>
+          <GroupName>Sys</GroupName>
           <Files>
             <File>
               <FileName>startup-rvds.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\startup-rvds.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Tables </GroupName>
+          <Files>
+            <File>
+              <FileName>trigo.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\trigo.asm</FilePath>
+            </File>
+            <File>
+              <FileName>f17p30_f18p135.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\f17p30_f18p135.asm</FilePath>
             </File>
           </Files>
         </Group>
