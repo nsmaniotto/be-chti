@@ -7,7 +7,7 @@ NB : Ce document ne présente pas le contenu du code relatif à cet OBJECTIF, ce
 
 Quel est l'objectif de ce projet :
 	- Utilisation de la fonction calc_M2 pour détecter un tir de pistolet	
-	- Lecture régulière dans le buffer et analyse avec calc_M2 grace à un timer et une fonction callback
+	- Lecture régulière dans le buffer et analyse avec calc_M2 grâce à un timer et une fonction callback
 	- Gestion des scores dans la fonction main
 	- Un son est lancé dès qu'un tir est détecté
 
